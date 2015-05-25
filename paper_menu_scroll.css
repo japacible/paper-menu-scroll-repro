@@ -1,0 +1,10 @@
+paper-menu {
+	border: black 1px solid;
+	height: 300px;
+	overflow-y: scroll;
+	width: 175px;
+}
+
+paper-item {
+	border: rgb(38, 42, 38) 1px dotted;
+}

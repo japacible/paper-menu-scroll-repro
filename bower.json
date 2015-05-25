@@ -1,0 +1,19 @@
+{
+  "name": "paper-menu-scroll-repro",
+  "version": "0.1.0",
+  "authors": [
+    "japacible <japacible@gmail.com>"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#v0.8.0-rc.7",
+    "paper-item": "PolymerElements/paper-item#^0.8.0",
+    "paper-menu": "PolymerElements/paper-menu#^0.8.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,16 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/paper-item/paper-item.html">
+<link rel="import" href="bower_components/paper-menu/paper-menu.html">
+<dom-module id="paper-menu-scroll">
+  <link rel="import" type="css" href="paper_menu_scroll.css">
+  <template>
+    <paper-menu id="item-list">
+      <template is="x-repeat" id="itemList" items="[[itemList_]]">
+        <paper-item on-click="onItemClick">
+          <span>[[item.name]]</span>
+        </paper-item>
+      </template>
+    </paper-menu>
+  </template>
+<script src="paper_menu_scroll.js"></script>
+</dom-module>
